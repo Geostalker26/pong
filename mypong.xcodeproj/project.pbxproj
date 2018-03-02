@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE5C5F772048D9E500DDB40A /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE5C5F762048D9E500DDB40A /* LLPIXEL3.ttf */; };
+		AE5C5F7B2048E7F900DDB40A /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C5F7A2048E7F900DDB40A /* MenuVC.swift */; };
+		AE76FF9620470724002E0D6E /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE76FF9520470724002E0D6E /* fire.sks */; };
 		AEAC3BDF20461A93008877A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC3BDE20461A93008877A7 /* AppDelegate.swift */; };
 		AEAC3BE120461A93008877A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEAC3BE020461A93008877A7 /* GameScene.sks */; };
 		AEAC3BE320461A93008877A7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AEAC3BE220461A93008877A7 /* Actions.sks */; };
@@ -17,6 +20,7 @@
 		AEAC3BEF20461A93008877A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAC3BED20461A93008877A7 /* LaunchScreen.storyboard */; };
 		AEAC3BFA20461A93008877A7 /* mypongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC3BF920461A93008877A7 /* mypongTests.swift */; };
 		AEAC3C0520461A93008877A7 /* mypongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC3C0420461A93008877A7 /* mypongUITests.swift */; };
+		AEC7AAF82049218D00636144 /* SVLSpriteNodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7AAF72049218D00636144 /* SVLSpriteNodeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE5C5F762048D9E500DDB40A /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		AE5C5F7A2048E7F900DDB40A /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		AE76FF9520470724002E0D6E /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
 		AEAC3BDB20461A93008877A7 /* mypong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mypong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAC3BDE20461A93008877A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEAC3BE020461A93008877A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 		AEAC3C0020461A93008877A7 /* mypongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mypongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAC3C0420461A93008877A7 /* mypongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypongUITests.swift; sourceTree = "<group>"; };
 		AEAC3C0620461A93008877A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC7AAF72049218D00636144 /* SVLSpriteNodeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVLSpriteNodeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +111,16 @@
 		AEAC3BDD20461A93008877A7 /* mypong */ = {
 			isa = PBXGroup;
 			children = (
+				AE5C5F762048D9E500DDB40A /* LLPIXEL3.ttf */,
 				AEAC3BDE20461A93008877A7 /* AppDelegate.swift */,
 				AEAC3BE020461A93008877A7 /* GameScene.sks */,
+				AE76FF9520470724002E0D6E /* fire.sks */,
 				AEAC3BE220461A93008877A7 /* Actions.sks */,
 				AEAC3BE420461A93008877A7 /* GameScene.swift */,
+				AEC7AAF72049218D00636144 /* SVLSpriteNodeButton.swift */,
 				AEAC3BE620461A93008877A7 /* GameViewController.swift */,
 				AEAC3BE820461A93008877A7 /* Main.storyboard */,
+				AE5C5F7A2048E7F900DDB40A /* MenuVC.swift */,
 				AEAC3BEB20461A93008877A7 /* Assets.xcassets */,
 				AEAC3BED20461A93008877A7 /* LaunchScreen.storyboard */,
 				AEAC3BF020461A93008877A7 /* Info.plist */,
@@ -246,6 +258,8 @@
 				AEAC3BEC20461A93008877A7 /* Assets.xcassets in Resources */,
 				AEAC3BEF20461A93008877A7 /* LaunchScreen.storyboard in Resources */,
 				AEAC3BE320461A93008877A7 /* Actions.sks in Resources */,
+				AE5C5F772048D9E500DDB40A /* LLPIXEL3.ttf in Resources */,
+				AE76FF9620470724002E0D6E /* fire.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC7AAF82049218D00636144 /* SVLSpriteNodeButton.swift in Sources */,
 				AEAC3BE520461A93008877A7 /* GameScene.swift in Sources */,
+				AE5C5F7B2048E7F900DDB40A /* MenuVC.swift in Sources */,
 				AEAC3BE720461A93008877A7 /* GameViewController.swift in Sources */,
 				AEAC3BDF20461A93008877A7 /* AppDelegate.swift in Sources */,
 			);
